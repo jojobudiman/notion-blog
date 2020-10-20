@@ -15,15 +15,15 @@ export default () => (
         width="250"
         alt="ZEIT + Notion"
       />
-      <h1>Code Child</h1>
+      <h1>My Notion Blog</h1>
       <h2>
-        Powered by Notion Blog with{' '}
+        Blazing Fast Notion Blog with Next.js'{' '}
         <ExtLink
-          href="https://nextjs.org"
+          href="https://github.com/zeit/next.js/issues/9524"
           className="dotted"
           style={{ color: 'inherit' }}
         >
-          Next.js
+          SSG
         </ExtLink>
       </h2>
 
@@ -53,7 +53,7 @@ export default () => (
           button below. After you supply your token and the blog index id (the
           page's id in Notion) we will automatically create the table for you!
           See{' '}
-          <ExtLink href="https://github.com/jojobdiman/notion-blog#getting-blog-index-and-token">
+          <ExtLink href="https://github.com/ijjk/notion-blog#getting-blog-index-and-token">
             here in the readme
           </ExtLink>{' '}
           for finding the new page's id. To get your token from Notion, login
