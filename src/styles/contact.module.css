@@ -34,3 +34,8 @@
 .name a {
   color: inherit;
 }
+
+.btn svg {
+  display: block;
+  margin: 0.5rem auto;
+}
