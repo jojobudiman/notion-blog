@@ -27,6 +27,11 @@
   height: 120px;
 }
 
+.btn svg {
+  display: block;
+  margin: 0.5rem auto;
+}
+
 .name {
   text-align: center;
 }
